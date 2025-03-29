@@ -21,6 +21,18 @@ public class TiposVariaveis3 {
 
         final double VALOR_DE_PI = 3.1416;    
 
+        System.out.println(idade);
+        System.out.println(ano);
+        System.out.println(cep);
+        System.out.println(cpf);
+        System.out.println(pi);
+        System.out.println(salario);
+        System.out.println(falso);
+        System.out.println(meuChar);
+        System.out.println(meuNomeCompleto);
+        System.out.println(VALOR_DE_PI);
+
+
     }
     
 }
