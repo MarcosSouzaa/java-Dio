@@ -1,6 +1,6 @@
 package edu.marcos.primeirasemana042025;
 
-public class BoletinEstudantil {
+public class BoletinEstudantil2 {
     
     // IDENTAÇÃO
     public static void main(String[] args) {
