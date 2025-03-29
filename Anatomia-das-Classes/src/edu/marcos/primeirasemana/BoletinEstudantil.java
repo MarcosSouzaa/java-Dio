@@ -1,3 +1,5 @@
+package edu.marcos.primeirasemana;
+
 public class BoletinEstudantil {
     
     // IDENTAÇÃO

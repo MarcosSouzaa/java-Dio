@@ -1,3 +1,5 @@
+package edu.marcos.primeirasemana;
+
 public class MinhaClasse {
      
     public static void main(String [] args){
