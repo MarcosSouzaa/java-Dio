@@ -92,10 +92,10 @@ public class Operadores {
 
          // OPERADOR TERNÁRIO
 
-         int a, b;
+        //  int a, b;
 
-         a = 6;
-         b = 5;
+        //  a = 6;
+        //  b = 5;
 
          //----------- USANDO IF E ELSE ---------------
 
@@ -107,18 +107,37 @@ public class Operadores {
 
          //----------- USANDO OPERADOR TERNÁRIO ---------------
          
-         String resultado = a == b ? "Verdadeiro" : "falso";
-         System.out.println(resultado);
+        //  String resultado = a == b ? "Verdadeiro" : "falso";
+        //  System.out.println(resultado);
 
-         int resultado2 = a == b ? 1 : 0;
-         System.out.println(resultado2);
+        //  int resultado2 = a == b ? 1 : 0;
+        //  System.out.println(resultado2);
          
 
+        // *************************************************************************************************
 
+        //------------------------------ OPERADOR LÓGICA ---------------------------------------------------
 
+            boolean condicao1 = true;
 
+            boolean condicao2 = false;
 
-  
- 
-    }
+               // Se condição1 e condição2 forem verdadeiras
+               if(condicao1 && condicao2){ //falsa - Não imprime
+
+                System.out.println("As duas condições são verdadeiras");
+               }
+
+               //Uma das condições é verdadeira!
+               if (condicao1 || condicao2) {
+                System.out.println("Uma das condições é verdadeira!\n");
+               }
+               
+               //As condições são verdadeiras!
+               if (condicao1 && (7 > 1)){
+                System.out.println("As condições são verdadeiras!\n");
+            }
+                        
+            System.out.println("FIM!");
+     }
 }
